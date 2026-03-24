@@ -1,0 +1,128 @@
+body{
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--black:#282d33;
+  	--text:#898989;
+  	--white:#ffffff;
+  --gradient: -webkit-linear-gradient(bottom left, #ff5f6d, #ffc371);
+  --gradient: -o-linear-gradient(bottom left, #ff5f6d, #ffc371);
+  --gradient: linear-gradient(to top right, #ff5f6d, #ffc371);
+}
+header{
+	background-color: #fff;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Catamaran', sans-serif;
+}
+
+body{
+  margin:0;
+  padding:0;
+  color:var(--text);
+}
+
+section{
+  width:100%;
+}
+
+.section{
+  padding:60px 0;
+}
+
+h1, h2, h3, h4{
+  color:var(--black);
+  font-weight:700;
+}
+
+h1{ font-size:48px; }
+h2{ font-size:36px; }
+h3{ font-size:24px; }
+h4{ font-size:20px; }
+
+.btn-main{
+  background:var(--gradient);
+  color:#fff;
+  padding:12px 28px;
+  border-radius:30px;
+  text-decoration:none;
+  display:inline-block;
+  margin-top:15px;
+  transition:.3s;
+}
+
+.btn-main:hover{
+  opacity:0.85;
+}
+
+.hero-slide{
+  height:90vh;
+  background:var(--gradient);
+  color:#fff;
+}
+
+.slide-2{
+  background:linear-gradient(45deg, #36d1dc, #5b86e5);
+}
+
+.hero h1{
+  color:#fff;
+}
+
+.intro h3{
+  margin-bottom:15px;
+}
+
+.services{
+  background:#f7f7f7;
+}
+
+.service-card{
+  padding:20px;
+  transition:.3s;
+}
+
+.cta{
+  height:300px;
+  background: url('"../img/home-grid-banner.jpg"') center/cover no-repeat;
+}
+
+.cta h2{
+  color:#fff;
+}
+
+.cliente{
+  padding:30px;
+  border:1px solid #eee;
+}
+
+.clientes{
+  background:#fff;
+}
+
+.cliente{
+  padding:30px;
+}
+
+.cliente img{
+  max-width:100%;
+  height:auto;
+  filter: grayscale(100%);
+  opacity:0.7;
+  transition:.3s;
+}
